@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BERT Fake News Detector</title>
+</head>
+<body>
+    <h1>Enter a Political Statement</h1>
+    <form method="POST">
+        <input type="text" name="text" placeholder="e.g. 'The Earth is flat'" style="width:300px;" required>
+        <button type="submit">Classify</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
