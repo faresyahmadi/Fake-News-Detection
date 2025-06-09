@@ -7,7 +7,7 @@ This project fine-tunes a pre-trained BERT model (`bert-base-uncased`) on the [L
 ## 📁 Project Structure
 
 .
-├── app.py # Flask app for the UI  
+├── appy.py # Flask app for the UI  
 
 │ └── my_bert_model/ # Saved BERT model and tokenizer  
 
@@ -28,8 +28,8 @@ epoch = 5, training rate = 2e-5, training on the entire dataset (liar)
 
 🚀 Run the Application
 Make sure the my_bert_model/ folder exists and contains the saved model and tokenizer files. Then run:
-python app.py
-Visit http://127.0.0.1:5000 in your browser to test the UI.
+py appy.py
+
 
 🧪 How It Works
 User inputs a political statement on the web form.
